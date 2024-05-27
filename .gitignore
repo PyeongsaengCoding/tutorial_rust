@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `cargo test`
+*/target/debug/deps/*_*
+
+# Output of `cargo bench`
+*/target/release/deps/*_*
+
+# Intermediate targets
+*/target/debug/*
+*/target/release/*
+
+# git-rs exclude
+.rs.bk
+*.rs.bk
+
+# RLS
+rls
+target
+
+# Cargo
+/Cargo.lock
+
+# Folders
+/node_modules/
+/.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Other
+.idea/
+*.iml
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
+*.swm
+*.swo
+*.swx
+*/_build/
